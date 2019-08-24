@@ -15,4 +15,5 @@ with open('browserHistoryLinux.csv', 'w+', encoding='utf-8') as file:
     writer.writerow(names)
     for result in results:
         writer.writerow(result)
-        print("File Written")
+        
+    print("File Written")
